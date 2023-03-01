@@ -284,3 +284,22 @@ footer {
     }
 
 }
+
+@media print {
+    @page {
+        margin: 0.5in;
+    }
+
+    body {
+        font-family: serif;
+        position: fixed;
+    }
+
+    #mainnav , #search {
+        visibility: hidden;
+    }
+
+    img {
+        visibility:hidden;
+    }
+}
