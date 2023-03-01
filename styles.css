@@ -120,17 +120,11 @@ footer {
 
 @media screen and (min-width: 414px) {
  
-    body {
-        max-width: 414px;
-    }
 }
 
 @media screen and (max-width: 768px) {
 
-    body {
-        max-width: 768px;
-    }
-    
+
 }
 
 @media screen and (min-width: 1280px) {
